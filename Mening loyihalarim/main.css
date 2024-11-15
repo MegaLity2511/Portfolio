@@ -70,65 +70,66 @@ img {
   color: green;
 }
 
-.family {
+.project {
   padding-block: 100px;
 }
 
-.family-wrapper {
+.project-title {
+  margin-block: 0 50px;
+  font-size: 40px;
+  color: green;
+  text-align: center;
+}
+
+.project-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-block: 0 50px;
+  padding-left: 0;
+  list-style-type: none;
 }
 
-.family-pic {
-  border-radius: 50px;
-  transition: box-shadow .2s linear, transform 0.2s linear;
+.project-item {
+  padding: 30px;
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+  transition: box-shadow 0.2s linear;
 }
 
-.family-pic:hover {
-  box-shadow: 0 4px 4px 4px #e6e6e6;
-  transform: scale(1.1);
+.project-item:hover {
+  box-shadow: 0 4px 4px 4px gainsboro;
 }
 
-.family-inner {
-  width: 400px;
+.project-item-title {
+  color: white;
 }
 
-.family-title {
-  margin-block: 0 30px;
-  font-size: 40px;
-  color: green;
+.project-item-desc {
+  color: white;
 }
 
-.family-desc {
-  margin-block: 0 40px;
-  font-size: 20px;
-  color: #c3c3c3;
-}
-
-.family-link {
-  display: inline-block;
+.project-link {
+  display: block;
+  width: 130px;
+  margin-inline: auto;
   padding: 10px 20px;
   color: #fff;
   background-color: green;
   border: 2px solid transparent;
   border-radius: 20px;
+  text-align: center;
   text-decoration-line: none;
-  transition: color .2s linear, background-color .2s linear, border 0.2s linear;
+  transition: color 0.2s linear, border 0.2s linear, background-color 0.2s linear;
 }
 
-.family-link:hover {
+.project-link:hover {
   color: green;
   background-color: transparent;
   border: 2px solid green;
 }
 
-.section1 {
-  margin-top: 50px;
-}
-
 .site-footer {
-  margin-top: 20px;
   padding-block: 100px;
   background-color: rgb(117, 117, 152);
 }

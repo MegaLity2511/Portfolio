@@ -7,78 +7,167 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="../Mening oilam/main.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <a href="" title="Reload current page ((Ctrl+R) or (Fn+F5) or (F5)) " style="font-weight: 900; font-size: 24px; text-decoration-line: none; color: #000000;">LOGO</a>
-      <div style="display: flex; margin-block: 0;">
-        <a href="../index.html" title="Go to this page" class="header-function3">Men haqimda</a>
-        <a href="" title="You are in this page" class="header-function1">Mening oilam</a>
-        <a href="" title="Go to this page" class="header-function2">Mening Guruhim</a>
-        <a href="" title="Go to this page" class="header-function2">Loyihalarim</a>
+    <header class="site-header">
+      <div class="container">
+        <div class="header-wrapper">
+          <a style="display: flex; align-items: center;" class="logo-link" title="Birinchi sahifaga o'tish sahifaga o'tish" href="../index.html">
+            <img style="border-radius: 10px;" width="50px" height="50px" src="../images/Screenshot 2024-09-24 181611.png" alt=""><p style="margin-left: 20px;">MegaLity</p>
+          </a>
+          <nav class="navbar">
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <a class="navbar-link" href="../index.html">
+                  Men haqimda
+                </a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="#myfamily">
+                  Mening oilam
+                </a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="#myfamilymember">
+                  Mening Oila azolarim
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
-      <img src="../images/image 9(1).svg" width="1240" alt="">
-      <h1 style="margin-top: 20px; font-weight: 700; font-size: 60px;text-align: center;">
-        Oilam
-      </h1>
-      <section class="section1">
-        <div style="padding-right: 252px;">
-          <h1 style="font-size: 64px; font-weight: 900; margin-block: 0;">
-            Salom. <br> Men Muhammadi
-          </h1>
-          <p style="font-weight: 400; font-size: 24px; margin-block: 0; margin-top: 20px;">
-            Yoshim 15, 6-maktabning 9 sinfida o'qiman bo'sh vaqlarimda telefon o'yinlarini o'ynashni judaham yaxshi ko'raman.
-          </p>
-        </div>
-        <div style="margin-left: 63px;">
-          <img src="" width="388" height="385" alt="">
+      <section class="family" id="myfamily">
+        <div class="container">
+          <div class="family-wrapper">
+            <img class="family-pic" src="../images/photo_2024-11-15_15-59-29.jpg" alt="This is my family image" width="450"  height="350">
+            <div class="family-inner">
+              <h2 class="family-title">
+                Bu mening Oilam
+              </h2>
+              <p class="family-desc">
+                Oilamizda 5 kishi yashaymiz. Men, dadam, oyim, va ukam va singlim.
+              </p>
+              <a class="family-link" href="">
+                Mening oilam
+              </a>
+            </div>
+          </div>
         </div>
       </section>
-      <section class="section1">
-        <div>
-          <img src="" width="388" height="385" alt="">
+      <section class="section1" id="aboutme">
+      <div class="container">
+        <div style="padding-right: 252px; display: flex;  align-items: center;">
+          <div>
+            <h1 style="font-size: 64px; font-weight: 900; margin-block: 0; color: green;">
+              Salom. <br> Men Muhammadi
+            </h1>
+            <p style="font-weight: 400; font-size: 24px; margin-block: 0; margin-top: 20px; color: green;">
+              Yoshim 15, 6-maktabning 9 sinfida o'qiman bo'sh vaqlarimda telefon o'yinlarini o'ynashni judaham yaxshi ko'raman.
+            </p>
+          </div>
+          <div style="margin-left: 360px;"><img class="family-pic" style="border-radius: 20px;" src="../images/photo_2024-11-15_15-31-39.jpg" width="300" height="385" alt=""></div>
         </div>
-        <div style="padding-left: 252px;">
-          <h1 style="font-size: 64px; font-weight: 900; margin-block: 0;">
+      </div>
+      </section>
+      <section class="section1" id="myfamilymember">
+      <div class="container">
+        <div style="display: flex; align-items: center;">
+        <div><img  class="family-pic" style="border-radius: 20px;" src="../images/photo_2024-06-02_18-51-15.jpg" width="500" height="385" alt=""></div>
+          <div style="margin-left: 100px;">
+            <h1 style="font-size: 64px; font-weight: 900; margin-block: 0; color: green;">
             Bu. <br> Mening otam
-          </h1>
-          <p style="font-weight: 400; font-size: 24px; margin-block: 0; margin-top: 20px;">
+            </h1>
+            <p style="font-weight: 400; font-size: 24px; margin-block: 0; margin-top: 20px; color: green;">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores illum incidunt sed dolorem neque laudantium assumenda eaque recusandae in dicta voluptates.
-          </p>
+            </p>
+          </div>
         </div>
+      </div>
       </section>
       <section class="section1">
-        <div style="padding-right: 252px;">
-          <h1 style="font-size: 64px; font-weight: 900; margin-block: 0;">
-            Bu. <br> Mening onam
-          </h1>
-          <p style="font-weight: 400; font-size: 24px; margin-block: 0; margin-top: 20px;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores illum incidunt sed dolorem neque laudantium assumenda eaque recusandae in dicta voluptates.
-          </p>
+      <div class="container">
+        <div style="display: flex; align-items: center;">
+          <div>
+            <h1 style="font-size: 64px; font-weight: 900; margin-block: 0; color: green;">
+              Bu. <br> Mening onam
+            </h1>
+            <p style="font-weight: 400; font-size: 24px; margin-block: 0; margin-top: 20px; color: green;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.  Dolores illum incidunt sed dolorem neque laudantium  assumenda eaque recusandae in dicta voluptates.
+            </p>
+          </div>
+          <div style="margin-left: 300px;">
+            <img class="family-pic" style="border-radius: 20px;" src="../images/photo_2024-11-15_17-06-24.jpg" width="388" height="300" alt="">
+          </div>
         </div>
-        <div style="margin-left: 63px;">
-          <img src="" width="388" height="385" alt="">
-        </div>
+      </div>
       </section>
       <section class="section1">
-        <div>
-          <img src="" width="388" height="385" alt="">
-        </div>
-        <div style="padding-left: 252px;">
-          <h1 style="font-size: 64px; font-weight: 900; margin-block: 0;">
+      <div class="container">
+        <div style="display: flex;">
+        <div><img class="family-pic" style="border-radius: 20px;" src="../images/photo_2024-11-15_17-06-43.jpg" width="300" height="385" alt=""></div>
+        <div style="margin-left: 325px;">
+          <h1 style="font-size: 64px; font-weight: 900; margin-block: 0; color: green;">
             Bu. <br> Mening ukam
           </h1>
-          <p style="font-weight: 400; font-size: 24px; margin-block: 0; margin-top: 20px;">
+          <p style="font-weight: 400; font-size: 24px; margin-block: 0; margin-top: 20px; color: green;">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores illum incidunt sed dolorem neque laudantium assumenda eaque recusandae in dicta voluptates.
           </p>
         </div>
+        </div>
+      </div>
       </section>
-      <img style="margin-top: 73px;" src="../images/Frame 22(2).svg" width="1240" alt="">
+      <section class="section1">
+        <div class="container">
+          <div style="display: flex; align-items: center;">
+            <div>
+              <h1 style="font-size: 64px; font-weight: 900; margin-block: 0; color: green;">
+                Bu. <br> Mening onam
+              </h1>
+              <p style="font-weight: 400; font-size: 24px; margin-block: 0; margin-top: 20px; color: green;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.  Dolores illum incidunt sed dolorem neque laudantium  assumenda eaque recusandae in dicta voluptates.
+              </p>
+            </div>
+            <div style="margin-left: 300px;">
+              <img class="family-pic" style="border-radius: 20px;" src="../images/photo_2024-11-15_15-54-31.jpg" width="300" height="385" alt="">
+            </div>
+          </div>
+        </div>
+        </section>
     </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <a style="display: flex; align-items: center;" class="footer-logo" href="./index.html">
+            <img class="family-pic" style="border-radius: 20px;" width="50px" height="50px" src="../images/Screenshot 2024-09-24 181611.png" alt=""><p style="margin-left: 20px;">MegaLity</p>
+          </a>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link"  href="#aboutme">
+                Mening haqimda
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#myfamily">
+                Mening oilam
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="#project">
+                Mening loyihalarim
+              </a>
+            </li>
+          </ul>
+          <address class="footer-address">
+            <p class="footer-desc">
+              Tashkent, Sergeli tumani, Sergeli-2, 34-uy, 53-kvartira
+            </p>
+          </address>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 </html>

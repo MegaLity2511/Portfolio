@@ -53,8 +53,8 @@ img {
   padding: 10px 20px;
   font-size: 18px;
   font-weight: 600;
-  color: rgb(37, 73, 73);
-  border: 2px solid rgb(37, 73, 73);
+  color: green;
+  border: 2px solid green;
   border-radius: 20px;
   text-decoration-line: none;
   transition: color .2s linear, background-color .2s linear, border 0.2s linear;
@@ -62,7 +62,7 @@ img {
 
 .navbar-link:hover {
   color: #fff;
-  background-color: rgb(37, 73, 73);
+  background-color: green;
   border: 2px solid transparent;
 }
 
@@ -124,7 +124,7 @@ img {
 }
 
 .section1 {
-  margin-top: 50px;
+  margin-top: 200px;
 }
 
 .site-footer {

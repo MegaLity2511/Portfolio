@@ -240,7 +240,7 @@ img {
 }
 
 .site-footer {
-  padding-block: 100px;
+  padding-block: 0px;
   background-color: rgb(117, 117, 152);
 }
 
